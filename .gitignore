@@ -1,8 +1,7 @@
-# Ignorar TODO
-*
-
-# Excepto el archivo que SÍ queremos
-!2025-11-00.md
-
-# También permitir el .gitignore mismo (importante)
+# Ignorar absolutamente todo MEJORADO
+/*
+!TESIS/
+TESIS/*
+!TESIS/*.md
+!TESIS/**/*.md
 !.gitignore
